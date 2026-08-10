@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.10"
+ruby "3.2.9"
 
-gem "rails",           "7.0.4.3"
+gem "rails",           "7.1.3"
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
 gem "importmap-rails", "1.1.5"
@@ -22,7 +22,7 @@ end
 
 group :development do
   gem "web-console",         "4.2.0"
-  gem "solargraph",          "0.58.2"
+  gem "solargraph",          "0.56.2"
   gem "irb",                 "1.10.0"
   gem "repl_type_completor", "0.1.10"
 end
@@ -31,7 +31,6 @@ group :test do
   gem "capybara",                 "3.38.0"
   gem "selenium-webdriver",       "4.8.3"
   gem "webdrivers",               "5.2.0"
-  gem "rails-controller-testing", "1.0.5"
   gem "minitest",                 "5.18.0"
   gem "minitest-reporters",       "1.6.0"
   gem "guard",                    "2.18.0"
